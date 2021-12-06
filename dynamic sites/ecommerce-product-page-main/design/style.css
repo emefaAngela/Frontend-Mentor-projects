@@ -33,13 +33,23 @@
     border: none;
     
 }
+.sub-images img{
+    
+    
+}
+.sub-images img:hover{
+    filter: opacity(50%);
+    border: 3px solid white;
+    border-radius: 3px;
+}
 #mainimage{
     width: 270px;
     height: 270px;
+    border-radius: 3px;
   
 }
 #image{
-    border-radius: 3px;
+    border-radius: 5px;
     border: none;
     width: 300px;
     height: 300px;
