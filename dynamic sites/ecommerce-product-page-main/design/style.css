@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+}
+.text-container{
+    width: 45%;
+}
+.optional-images{
+    display: flex;
+    flex-direction: row;
+}
+.sub-images{
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    border: none;
+    margin-left:10px;
+}
+#mainimage{
+    width: 270px;
+    height: 270px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-pane{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right-pane{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+.price-info{
+    display: flex;
+    flex-direction: row;
+}
+.discount{
+    width: 50px;
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+}
+.item.number{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cart-btn{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+.add-to-cart{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    list-style-type: none;
+    padding-left: 10px;
+}
+p{
+    font-size: 16px;
+}
