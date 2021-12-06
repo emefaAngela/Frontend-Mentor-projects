@@ -20,7 +20,7 @@
 
     <div class="left-pane">
       <div class="logo">
-        sneakers
+        <img src="../images/logo.svg" alt="">
       </div>
       <div class="list">
         <ul>
@@ -35,12 +35,15 @@
 
     <div class="right-pane">
       <div class="cart-icon">
-
+        <img src="../images/icon-cart.svg" alt="">
       </div>
-      <div class="profile"></div>
+      <div class="profile">
+        <img src="../images/image-avatar.png" alt="" id="avatar">
+      </div>
     </div>
 
   </div>
+  <hr>
   <!-- header-section -->
 
   <!-- horizontal-bar -->
@@ -55,30 +58,30 @@
 
       <!-- selected-image -->
       <div id="main-image">
-        <img src="images/image-product-4.jpg">
+        <img src="../images/image-product-1.jpg" id="image"> 
       </div>
       <!-- selected-image -->
 
       <!-- four optional images -->
       <div class="optional-images">
         <div class="sub-images" id="image-1">
-          <img src="../image-product-1-thumbnail.jpg" alt="">
+          <img src="../images/image-product-1-thumbnail.jpg" alt="" class="options">
         </div>
         <div class="sub-images" id="image-2">
-          <img src="images/image-product-2-thumbnail.jpg" alt="">
+          <img src="../images/image-product-2-thumbnail.jpg" alt="" class="options">
          </div>
         <div class="sub-images" id="image-3">
-          <img src="images/image-product-3-thumbnail.jpg" alt="">
+          <img src="../images/image-product-3-thumbnail.jpg" alt="" class="options">
         </div>
         <div class="sub-images" id="image-4">
-          <img src="images/image-product-4-thumbnail.jpg" alt="">
+          <img src="../images/image-product-4-thumbnail.jpg" alt="" class="options">
         </div>
       </div>
       <!-- four optional images -->
 
     </div>
     <div class="text-container">
-      <div class="title">Sneaker Company</div>
+      <div class="title">SNEAKER COMPANY</div>
       <h1> Fall Limited Edition Sneakers</h1>
       <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
         durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
@@ -86,15 +89,20 @@
           <div class="current-price">$125.00</div>
           <div class="discount">50%</div>
         </div>
-        <div class="original-price"> $250.00</div>
+        <div class="original-price"><strike>$250.00</strike> </div>
         <div class="add-to-cart">
           <div class="item-number">
-            <div class="decrease"></div>
-            <div class="count">0</div>
-            <div class="increase"></div>
+            <span class="decrease">
+              <img src="../images/icon-minus.svg" alt="">
+            </span>
+            <span class="count">0</span>
+            <span class="increase">
+              <img src="../images/icon-plus.svg" alt="">
+            </span>
           </div>
           <div class="cart-btn">
-            Add to cart
+            <img src="../images/icon-cart.svg" alt="" id="cart">
+            <span>Add to cart</span>
           </div>
         </div>
 
@@ -103,7 +111,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Amengor-Kwapong Angela</a>.
   </div>
 </body>
 </html>
