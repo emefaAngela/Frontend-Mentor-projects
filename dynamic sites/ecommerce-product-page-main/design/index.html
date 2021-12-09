@@ -6,7 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <link rel="stylesheet" href="lightbox.min.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Kumbh+Sans">
+  
   <script src="lightbox-plus-jquery.min.js"></script>
   <title>Frontend Mentor | E-commerce product page</title>
 
@@ -102,7 +105,7 @@
               <img src="../images/icon-plus.svg" alt="">
             </span>
           </div>
-          <div class="cart-btn">
+          <div id ="cart-btn" click="open()">
             <img src="../images/icon-cart.svg" alt="" id="cart">
             <span>Add to cart</span>
           </div>
@@ -110,6 +113,36 @@
 
     </div>
   </div>
+  <div id="bg-modal">
+    <div id="cart-modal">
+      <div id="close">
+        <img src="../images/icon-close.svg" alt="">
+      </div>
+      <h3>cart</h3>
+      <hr id="cart-hr">
+      <div class="cart-section">
+        <div class="item-image">
+          <img src="../images/image-product-1-thumbnail.jpg" alt="">
+        </div>
+        <div class="item-details">
+          <div class="item-title">Autumn Limited Edition</div>
+          <div class="item-price">$125.00</div>
+          <div class="total-price"></div>
+        </div>
+        <div class="btn-remove">
+          <img src="../images/icon-delete.svg" alt="">
+        </div>
+      </div>
+      <div class="btn-checkout">
+        Checkout
+      </div>
+      </div>
+    
+    </div>
+  </div>
+  
+
+     
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
